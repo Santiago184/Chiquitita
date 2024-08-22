@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+}
+h1{
+    color: #f0b811;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.carrito{
+    padding: 2px;
+    margin: 2% 22%;
+    
+}
+.con1{
+    background-color:black;
+    border-radius: 20px;   
+    position: relative;  
+}
+.pos1{
+    position: absolute;
+    top: 6%;
+    left: 30%;
+}
+.con1 img{   
+    padding: 8px;
+    width: 28%;
+    border-radius: 30px;    
+}
+.con1 h4{
+    color: #f0b811;   
+}
+.con1 p{
+    color: #fff;
+    padding-top: 1%;
+}
+.con2{
+background-color: #961616;
+border-radius: 20px;
+position: relative;
+margin-bottom: 2%;
+}
+.con2 img{
+    padding: 8px;
+    border-radius: 30px;
+    width: 28%;
+}
+.con2 h4{
+    color: #f0b811;
+    direction: ltr;
+    
+}
+.con2 p{
+    color: #fff;
+    padding-top:1% ;
+}
+
+    
+.codigo{
+    text-align: center;
+    border-radius: 10px;
+    padding: 3%;
+    color: #fff;
+    background-color: #961616;
+    width: 100%;
+    font-size: 28px;
+}
+.total{
+    position: relative;
+    margin-top: 3%;
+    
+}
+.total p{
+    color: #fff;
+    font-size: 28px;
+}
+.total1{
+   padding-top: 30px;
+   padding-bottom: 30px;
+   padding-left: 30px;
+}
+.total3{
+    position: absolute;
+    top: 13%;
+    left: 81%;
+}
+
+
+.pago{
+    text-align: center;
+    border-radius: 10px;
+    padding: 3%;
+    color: #fff;
+    background-color: #961616;
+    width: 30%;
+    font-size: 28px;
+    margin: auto;
+    display: block;
+    margin-top: 3%;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="trabajo.css">
+    <script src="https://kit.fontawesome.com/f8a4f1ae88.js" crossorigin="anonymous"></script>
+    <title>Chiquitita</title>
+    <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
+</head>
+<header>
+    <a class="logo" href="index.html"><img src="imagenes/logo.png" alt="logo" width="120px"></a>
+<nav class="menu">
+    <ul>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="opiniones.html">Danos tu opinión</a></li>
+        <li><a href="trabajo.html">Trabaja con nosotros</a></li>
+    </ul>    
+</nav>
+<div class="i-c">
+    <a  href="seccion.html"><img src="imagenes/inicio.png" alt="Inicio de seccion" width="40px"></a>
+    <a  href="carrito.html"><img src="imagenes/compra.png" alt="Carrito" width="40px"></a>
+</div>
+</header>
+<body>
+    <h3 class="titulo">Formulario del trabajo</h3>
+    <form action="https://formsubmit.co/goku182015184@gmail.com" method="POST">
+        <div class="separador">  
+            <div class="datos">
+                <label class="texto" for="lnombre">Nombre Completo</label><br>
+                <input class="cuadros" type="text" name="lnombre" id="lnombre"autocomplete="off" placeholder="Ingresa tus nombres" maxlength="70">
+                <span></span>
+                <br>
+                <label class="texto" for="lcelular">Celular</label><br>
+                <input class="cuadros" type="tel" name="celular" id="lcelular" autocomplete="off" placeholder="Ingresa tu celular" pattern="[0-9]{10}">
+                <span></span>
+                <br>
+                <label class="texto" for="lnacimiento">Fecha de Nacimiento</label><br>
+                <input class="cuadros" type="date" name="nacimiento" id="lnacimiento" >
+                <span></span>
+                <br>
+                <label class="texto" for="lcomentario">Habilidades que tienes</label><br>
+                <textarea class="cuadros" name="comentario" id="lcomentario" cols="30" rows="10"  spellcheck="off" maxlength="100" placeholder="Comenta que habilidades tienes"></textarea>
+                <span></span>
+                <br>
+            </div>
+            <div class="datos2">
+                <label class="texto" for="lapellidos">Apellidos</label><br>
+                <input class="cuadros" type="text" name="lapellido" id="lapellidos"autocomplete="off" placeholder="Apellidos" maxlength="100">
+                <span></span>
+                <br>
+                <label class="texto" for="lcorreo">Email</label><br>
+                <input class="cuadros" type="email" name="correo" id="lcorreo" placeholder="correo@gmail.com" autocomplete="off">
+                <span></span>
+                <br>
+                <label class="texto" for="laños">Años de experiencia</label><br>
+                <input class="cuadros" type="number" name="añosexp" id="laños" autocomplete="off" placeholder="Años de experiencia">
+                <span></span>
+                <br>   
+                <label class="texto" for="lpuestos">Puestos disponibles</label>
+                <fieldset class="puestos">
+                    <label for="lcajero">Cajero</label>
+                    <input type="checkbox" name="trabajos" id="lcajero" value="cajero"><br>
+                    <label for="lcocinero">Cocinero</label>
+                    <input type="checkbox" name="trabajos" id="lcocinero" value="cocinero"><br>
+                    <label for="lmesero">Mesero</label>
+                    <input type="checkbox" name="trabajos" id="lmesero" value="mesero"><br>
+                    <label for="lrepartidor">Repartidor</label>
+                    <input type="checkbox" name="trabajos" id="lrepartidor" value="repartidor"><br>
+                    <label for="latencion">Atencion al cliente</label>
+                    <input type="checkbox" name="trabajos" id="latencion" value="atencion"><br>
+                    <label for="lencargado">Encargado de bodega</label>
+                    <input type="checkbox" name="trabajos" id="lencargado" value="encargado"><br>
+                    <label for="layudante">Ayudante de cocina</label>
+                    <input type="checkbox" name="trabajos" id="layudante" value="ayudante"><br>
+                    <label for="ladministrador">Administrador</label>
+                    <input type="checkbox" name="trabajos" id="ladministrador" value="administrador"><br>
+                </fieldset><br>
+            </div>
+        </div>
+            <input class="boton" type="submit" value="Enviar">
+            <input type="hidden" name="_next" value="http://chiquititacomida2.000webhostapp.com/trabajo.html">
+            <input type="hidden" name="_captcha" value="false">
+    </form>
+</body>
+<footer>
+    <div class="contenedor"><!-- chiquitita -->
+        <div class="raya"></div>
+        <p>CHIQUITITA</p>
+        <div class="raya"></div>
+    </div>
+    <div class="contenedor-lista">
+    <ul class="list"><!-- contactos -->
+        <li><h3>Contactos</h3></li>
+        <li>Tel: 312 4569837</li>
+        <li>Direccion: cra 13#48 sur</li>
+        <li>chiquitita@gmail.com</li>
+    </ul>
+    <ul class="list"><!-- Horarios -->
+        <li><h3>Horario</h3></li>
+        <li><h4>Lunes-Viernes</h4></li>
+        <li>2:00-8:00-pm</li>
+        <li><h4>Sabado-Domingo-Festivo</h4></li>
+        <li>2:00-5:00-pm</li>
+    </ul>
+
+    <ul class="pg-rd"><!-- metodos de pago -->
+        <h3>Metodos de pago</h3>
+        <li><i class="fa-brands fa-cc-mastercard fa-2xl" style="color: #ffffff;"></i></li>
+        <li><i class="fa-solid fa-money-bill fa-2xl" style="color: #ffffff;"></i></li>
+        <li><i class="fa-brands fa-cc-visa fa-2xl" style="color: #ffffff;"></i></li>
+    </ul>  
+    <ul class="pg-rd"><!-- Redes -->
+        <h3>Redes sociales</h3>
+        <li><i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i></li>
+        <li><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></li>
+        <li><i class="fa-brands fa-twitter fa-xl" style="color: #ffffff;"></i></li>
+    </ul>  
+    </div>        
+</footer>
+<script src="trabajo.js"></script>
+</html>

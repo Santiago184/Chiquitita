@@ -1,0 +1,74 @@
+.con{
+    position: relative;
+}
+.con img{
+    width: 100%;
+    display: block; 
+}
+.con h1{
+    color: #f0b811;
+}
+.con h3{
+    color: #f0b811;
+    font-size:40px;
+}
+.con p{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+.pos{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 82%;
+    left: 25%;
+}
+.pos1{
+    position: absolute;
+    background-color: #961616;
+    padding: 2%;
+    top: 50%;
+    left: 55%;
+    /* width: 30%;
+    height:30%; */
+    border-radius: 6px;
+    transform: translate(-50%,-50%);
+}
+.pos2{
+    background-color: #961616;
+    text-align: center;
+    padding: 3%;
+    position: absolute;
+    border-radius: 6px;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+/* condiccionales */
+@media screen and (max-width: 900px) {
+	img{
+        width: 50%;
+    }
+    h1{
+        font-size: 15px;
+    }
+    .pos1 h3{
+        font-size: 15px;
+    }
+    .pos1 p{
+        font-size: 15px;
+    }
+    .pos2 h3{
+        font-size: 15px;
+    }
+    .pos2 p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 500px) {
+}

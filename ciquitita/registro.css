@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+.seccion{
+    background-color:black;
+    margin: auto;
+    padding: 51px;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+h1{
+    color:#f0b811;
+    text-align: center;
+    padding-bottom: 12%;
+    
+}
+.seccion label{
+    color: #444;
+    padding-bottom: 8%;
+}
+.seccion input{
+    background-color: #444;
+    width: 70%;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.inicio{
+    display: block;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3%;
+    color: #fff;
+    text-decoration: none;
+    background-color: #961616;
+}
+.error{
+    color: #961616;
+}
